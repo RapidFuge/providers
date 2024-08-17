@@ -14,8 +14,8 @@ const providers = [
 ];
 
 export const headers = {
-  Origin: 'https://sudo.rapidfuge.xyz',
-  Referer: 'https://sudo.rapidfuge.xyz',
+  Origin: 'https://www.vidbinge.com',
+  Referer: 'https://www.vidbinge.com',
 };
 
 function embed(provider: { id: string; rank: number }) {
