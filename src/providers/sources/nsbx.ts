@@ -3,11 +3,11 @@ import { SourcererOutput, makeSourcerer } from '@/providers/base';
 import { MovieScrapeContext, ShowScrapeContext } from '@/utils/context';
 import { NotFoundError } from '@/utils/errors';
 
-export const baseUrl = 'https://nsbx.wafflehacker.io';
+export const baseUrl = 'https://api.nsbx.ru';
 
 export const headers = {
-  Origin: 'https://www.vidbinge.com',
-  Referer: 'https://www.vidbinge.com',
+  Origin: 'https://sudo.rapidfuge.xyz',
+  Referer: 'https://sudo.rapidfuge.xyz',
 };
 
 async function comboScraper(ctx: ShowScrapeContext | MovieScrapeContext): Promise<SourcererOutput> {
